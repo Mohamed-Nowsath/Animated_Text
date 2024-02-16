@@ -1,0 +1,38 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;700&display=swap');
+  *{
+    padding: 0;
+    margin: 0;
+    font-family: 'Rubik', sans-serif; ;
+  }
+  body{
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Lobster',cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right bottom, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    background-size: 400% 400%;
+    animation: animatedBG 2s ease infinite;
+  }
+  h1{
+    font-size: 150px;
+    background-image: linear-gradient(to right bottom, #dcf1f2, #9fb6b2, #697f75, #3b4a3c, #141b05);
+    background-size: 500% 500%;
+    color: transparent;
+    background-clip: text;
+    animation: animatedtext 2s ease infinite;
+
+  }
+  @keyframes animatedBG{
+    0%{background-position: 0%;}
+    50%{background-position: 100%;}
+    100%{background-position: 0%;}
+  }
+  @keyframes animatedtext{
+    0%{background-position: 0%;}
+    50%{background-position: 100%;}
+    100%{background-position: 0%;}
+
+  }
